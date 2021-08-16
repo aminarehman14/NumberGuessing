@@ -20,7 +20,7 @@ namespace NumberGuessing
                 Console.Write("Enter a number between 1 to 100 "); 
                 //todo accept user input ("read user input from console c#"
                 string i = Console.ReadLine();
-
+                Console.WriteLine(i); 
                 int x = int.Parse(i);
                 // TODO write statement that checks if a number is less than or higher than the RIGHTNUM and write too high 
                 //if the entered num is too high and too low if the answer is too low
