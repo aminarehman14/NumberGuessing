@@ -39,32 +39,33 @@ namespace NumberGuessing
                         Console.WriteLine("Just a number loser");
                         guessedNum = Console.ReadLine();
                     }
-                } 
+                }
 
 
 
                 // TODO write statement that checks if a number is less than or higher than the RIGHTNUM and write too high 
                 //if the entered num is too high and too low if the answer is too low
                 // if the answer is right print that is correct and set win = true
-                /*
-                switch (x)
-                {
-                    case x == RightNum:
-                        Console.WriteLine("shaBAAM You right.");
-                        correct = true;
-                        break;
-                    case x > RightNum:
-                        Console.WriteLine("Too high.  Try again");
-                        break;
-                    case x < RightNum:
-                        Console.WriteLine("Too low. Try again");
-                        break;
-                    default:
-                        Console.WriteLine("Nothing to say.");
-                        break;
-                }
-                */
                 int x = int.Parse(guessedNum);
+
+                //switch (x)
+                //{
+                //    case 6:
+                //        Console.WriteLine("shaBAAM You right.");
+                //        correct = true;
+                //        break;
+                //    case 7:
+                //        Console.WriteLine("Too high.  Try again");
+                //        break;
+                //    case 8:
+                //        Console.WriteLine("Too low. Try again");
+                //        break;
+                //    default:
+                //        Console.WriteLine("Nothing to say.");
+                //        break;
+                //}
+
+               
 
                 if (x == RightNum)
                 {
